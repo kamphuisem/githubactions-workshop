@@ -8,10 +8,5 @@ namespace HelloWorld.UnitTests
             Assert.True(true);
         }
 
-        [Fact]
-        public void Test_ShouldFail()
-        {
-            Assert.True(false);
-        }
     }
 }

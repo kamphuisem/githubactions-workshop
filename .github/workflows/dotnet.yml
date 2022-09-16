@@ -56,6 +56,10 @@ jobs:
 
     - name: 'Run Azure login'
       uses: Azure/login@v1
+      with:
+        client-id: 55328f97-9331-4c63-892a-0003d3244f2c
+        tenant-id: c53567a1-4f5a-4d88-a3a4-c20d15cca883
+        subscription-id: 388205e1-213e-46ee-9202-ed09d4ba6fc0
 
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1

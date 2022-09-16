@@ -1,7 +1,11 @@
 name: .NET
 
+# Configureer triggers voor een push op de main branch
 on:
- # Configureer triggers voor een push op de main branch
+  push:
+    branches:
+      - main
+ 
  # Configureer triggers voor een pull request
  # Configureer een trigger voor een handmatige build
 

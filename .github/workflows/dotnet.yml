@@ -22,7 +22,7 @@ jobs:
     env:
       WORKDIR: "./src/HelloWorld"
       CONFIG: "Release"
-      AZURE_FUNCTIONAPP_NAME: "HelloWorld-MartijnK"
+      AZURE_FUNCTIONAPP_NAME: "helloworld20220916153654"
     defaults:
       run:
         working-directory: ${{env.WORKDIR}}

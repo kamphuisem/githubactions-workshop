@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\Github\\githubactons-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj": {}
+    "D:\\GitHub\\githubactions-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\Github\\githubactons-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj": {
+    "D:\\GitHub\\githubactions-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\Github\\githubactons-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj",
+        "projectUniqueName": "D:\\GitHub\\githubactions-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj",
         "projectName": "HelloWorld.UnitTests",
-        "projectPath": "C:\\Repos\\Github\\githubactons-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\Github\\githubactons-workshop\\src\\HelloWorld.UnitTests\\obj\\",
+        "projectPath": "D:\\GitHub\\githubactions-workshop\\src\\HelloWorld.UnitTests\\HelloWorld.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\m.kamphuis\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\githubactions-workshop\\src\\HelloWorld.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.kamphuis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

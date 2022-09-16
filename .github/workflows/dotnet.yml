@@ -11,7 +11,8 @@ on:
     branches:
       - main
  
- # Configureer een trigger voor een handmatige build
+  # Configureer een trigger voor een handmatige build
+  workflow_dispatch:
 
 jobs:
   build:

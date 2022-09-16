@@ -19,10 +19,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write
-      contents: read
-    
     env:
       WORKDIR: "./src/HelloWorld"
       CONFIG: "Release"
@@ -59,16 +55,9 @@ jobs:
         dotnet publish -c ${{ env.CONFIG }}
       shell: bash
 
-    - name: 'Run Azure login'
-      uses: Azure/login@v1
-      with:
-        client-id: 55328f97-9331-4c63-892a-0003d3244f2c
-        tenant-id: c53567a1-4f5a-4d88-a3a4-c20d15cca883
-        subscription-id: 388205e1-213e-46ee-9202-ed09d4ba6fc0
-
     - name: 'Run Azure Functions Action'
       uses: Azure/functions-action@v1
       with:
         app-name: ${{env.AZURE_FUNCTIONAPP_NAME}}
         package: ${{env.WORKDIR}}/bin/${{env.CONFIG}}/net6.0/publish
-        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+        publish-profile: ${{ secrets.HELLOWORLD20220916153654_FFFF }}
